@@ -1,0 +1,17 @@
+#include<stdio.h>
+  int main() {
+      int a = 20;
+      int b = a;
+      int c = b * 6;
+      int d = 1,e;
+
+      int oldage  = 22;
+      int newage = oldage + years;
+      int years = 2;
+      // here i have done conditionally wrong with year bcz it is not assigned
+      // we have to assign variable before using it not vice versa
+      int x,y,z;  // here i declared x y z then used it
+      x = y = z = 4;
+
+    return 0;
+  }
